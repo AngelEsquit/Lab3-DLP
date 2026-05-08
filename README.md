@@ -5,6 +5,11 @@ Programa que implementa el cálculo de las funciones **FIRST** (primero) y **FOL
 
 ## Estructura del Proyecto
 
+## Enlace del video
+```
+https://youtu.be/Xy1gLThqZuQ
+```
+
 ```
 ├── main.py           # Lanzador compatible (raíz)
 ├── demo.py           # Lanzador compatible (raíz)
@@ -86,3 +91,5 @@ B -> b B | ε
 - No utiliza librerías automáticas para calcular FIRST/FOLLOW
 - Todos los algoritmos están implementados manualmente
 - La interfaz es por consola
+
+
