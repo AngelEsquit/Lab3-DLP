@@ -2,8 +2,8 @@
 Módulo para la interfaz de usuario.
 """
 
-from parser import GrammarParser
-from analyzer import GrammarAnalyzer
+from src.parser import GrammarParser
+from src.analyzer import GrammarAnalyzer
 
 class UI:
     """Interfaz de usuario para interactuar con el analizador de gramáticas."""

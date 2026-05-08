@@ -2,7 +2,7 @@
 Módulo para parsear gramáticas en formato texto.
 """
 
-from grammar import Grammar
+from src.grammar import Grammar
 
 class GrammarParser:
     """

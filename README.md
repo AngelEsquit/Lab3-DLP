@@ -6,13 +6,17 @@ Programa que implementa el cálculo de las funciones **FIRST** (primero) y **FOL
 ## Estructura del Proyecto
 
 ```
-├── main.py           # Programa principal interactivo
-├── demo.py           # Demostración automatizada
-├── grammar.py        # Clase Grammar
-├── parser.py         # Parser de gramáticas
-├── analyzer.py       # Algoritmos FIRST y FOLLOW
-├── ui.py             # Interfaz de usuario
-├── test_cases.py     # Gramáticas predefinidas
+├── main.py           # Lanzador compatible (raíz)
+├── demo.py           # Lanzador compatible (raíz)
+├── src/
+│   ├── __init__.py
+│   ├── main.py       # Programa principal interactivo
+│   ├── demo.py       # Demostración automatizada
+│   ├── grammar.py    # Clase Grammar
+│   ├── parser.py     # Parser de gramáticas
+│   ├── analyzer.py   # Algoritmos FIRST y FOLLOW
+│   ├── ui.py         # Interfaz de usuario
+│   └── test_cases.py # Gramáticas predefinidas
 └── README.md         # Este archivo
 ```
 
